@@ -135,7 +135,6 @@ body {
 	min-width: 410px;
 	color: #eee;
 	margin: 0 0 0 0;
-	padding: 15px;
 	box-sizing: border-box;
 }
 
@@ -279,7 +278,6 @@ textarea {
 	display: flex;
   flex-direction: row;
 	justify-content: space-between;
-
 	list-style: none;
 }
 
@@ -300,5 +298,7 @@ textarea {
 
 .footer__text {
   font-family:'Roboto';
-  content: 'Copyright © 2017 Product name PSD HTML CSS'
+  font-size: .8em;
+  text-align: center;
+  color: black;
 }
