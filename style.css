@@ -95,20 +95,14 @@ html {
 }
 
 
-.icon-linkedin2:before {
-  content: "\eaca";
-	color: RGB(68, 81, 98);
-	vertical-align:-5px;
-	margin: 14px 10px 10px 7px;
-}
 
 
 
 
 
 body {
-	margin: 0;
-	padding: 0 15px;
+	margin: 0 0 0 0;
+	-padding: 0 15px;
 	display: -webkit-flex;
 	display: flex;
 	flex-direction: column;
@@ -135,12 +129,12 @@ body {
 	box-sizing: border-box;
 }
 .footer {
-	background: #222;
+	background: white;
 	width: 100%;
-	max-width: 800px;
+	-max-width: 800px;
 	min-width: 410px;
 	color: #eee;
-	margin: auto;
+	margin: 0 0 0 0;
 	padding: 15px;
 	box-sizing: border-box;
 }
@@ -302,5 +296,9 @@ textarea {
 	background: white;
 	border-radius: 32px;
 	color:RGB(68, 81, 98);
+}
 
+.footer__text {
+  font-family:'Roboto';
+  content: 'Copyright © 2017 Product name PSD HTML CSS'
 }
