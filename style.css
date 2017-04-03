@@ -160,7 +160,7 @@ body {
 }
 
 .check {
-  list-style: none; /* Убираем исходные маркеры */
+  list-style: none; /* hide markers */
 }
 
 .check:before {
